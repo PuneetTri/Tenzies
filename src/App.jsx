@@ -63,7 +63,6 @@ export default function App() {
   };
 
   useEffect(() => {
-    console.log(diceValues);
     const firstValue = diceValues[0].value;
     for (let i = 1; i < diceValues.length; i++) {
       if (diceValues[i].value !== firstValue.value && !diceValues[i].isHeld) {
