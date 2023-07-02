@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import Confetti from "react-confetti";
-import "./app.css";
 import Dice from "./components/Dice";
+
+import "./App.css";
 
 export default function App() {
   const randomizeDice = () => {
